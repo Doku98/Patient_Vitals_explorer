@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Surgery Stability Viewer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Surgery Stability Visualizer</h1>
+
+  <label for="patientFilter">Select Patient:</label>
+  <select id="patientFilter"></select>
+
+  <div id="chart">
+    <svg width="1000" height="500"></svg>
+  </div>
+
+  <div id="tooltip" class="tooltip" style="opacity:0;"></div>
+
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <script src="plot.js"></script>
+</body>
+</html>
